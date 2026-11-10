@@ -1,6 +1,8 @@
 # 备案通过之后：给 Halo 博客绑上 feeailab.cn、开 HTTPS、挂备案号的完整记录
 
 > 📖 原文：[飞飞AI实验室 · 博客原文](https://feeailab.cn/archives/icp-domain-https-halo)　｜　博客：[feeailab.cn](https://feeailab.cn)　｜　环境：阿里云 ECS + 1Panel + Halo
+>
+> 📚 系列文章：[第 1 篇：我花 129 元搭好了个人博客服务器](https://github.com/feiw3440-cell/129-yuan-blog-server) → **第 2 篇（本文）备案通过后绑域名、开 HTTPS、挂备案号**
 
 > 2026 年 11 月 10 日（北京时间），我的域名 feeailab.cn 备案通过了。本以为备案一过网站就能打开，结果从“管局审核通过”到浏览器里真正出现 `https://feeailab.cn`，中间还有解析、绑定、证书、外部地址、页脚备案号五件事要做，外加一个让我虚惊一场的手机报错。这篇把完整步骤、命令和踩过的坑都记下来，给同样用 **阿里云 ECS + 1Panel + Halo** 建站的朋友做个参考。
 
@@ -347,3 +349,7 @@ tail -f /opt/1panel/www/sites/halo/log/access.log
 3. **续费提醒**：域名一年一续，证书虽然会自动续签，但我会在到期前（2027 年 2 月初）上服务器确认一次续签成功。
 
 从备案通过到博客用上 `https://feeailab.cn`，真正动手的时间不长，花时间的主要是验证和排查那个手机报错。希望这份记录能帮你少走点弯路。
+
+---
+
+**上一篇** 👈 [从零开始：我花 129 元搭好了个人博客服务器（小白全记录）](https://github.com/feiw3440-cell/129-yuan-blog-server)
